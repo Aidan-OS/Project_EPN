@@ -14,6 +14,12 @@
 		376E403E1D8B904900B47266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376E403C1D8B904900B47266 /* LaunchScreen.storyboard */; };
 		376E40491D8B904900B47266 /* Project_EPNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40481D8B904900B47266 /* Project_EPNTests.swift */; };
 		376E40541D8B904900B47266 /* Project_EPNUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40531D8B904900B47266 /* Project_EPNUITests.swift */; };
+		376E40621D90CA0900B47266 /* Fence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40611D90CA0900B47266 /* Fence.swift */; };
+		376E40641D90D03900B47266 /* FenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40631D90D03900B47266 /* FenceManager.swift */; };
+		376E40661D960B1D00B47266 /* FenceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40651D960B1D00B47266 /* FenceManagerTests.swift */; };
+		376E40671D960D5B00B47266 /* FenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40631D90D03900B47266 /* FenceManager.swift */; };
+		376E40681D960DA300B47266 /* Fence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40611D90CA0900B47266 /* Fence.swift */; };
+		376E406A1D9A130600B47266 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376E40691D9A130600B47266 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,10 @@
 		376E404F1D8B904900B47266 /* Project_EPNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_EPNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		376E40531D8B904900B47266 /* Project_EPNUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_EPNUITests.swift; sourceTree = "<group>"; };
 		376E40551D8B904900B47266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376E40611D90CA0900B47266 /* Fence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fence.swift; sourceTree = "<group>"; };
+		376E40631D90D03900B47266 /* FenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenceManager.swift; sourceTree = "<group>"; };
+		376E40651D960B1D00B47266 /* FenceManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenceManagerTests.swift; sourceTree = "<group>"; };
+		376E40691D9A130600B47266 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,10 @@
 			children = (
 				376E40331D8B904900B47266 /* AppDelegate.swift */,
 				376E40351D8B904900B47266 /* ViewController.swift */,
+				376E40611D90CA0900B47266 /* Fence.swift */,
+				376E40631D90D03900B47266 /* FenceManager.swift */,
 				376E40371D8B904900B47266 /* Main.storyboard */,
+				376E40691D9A130600B47266 /* AddViewController.swift */,
 				376E403A1D8B904900B47266 /* Assets.xcassets */,
 				376E403C1D8B904900B47266 /* LaunchScreen.storyboard */,
 				376E403F1D8B904900B47266 /* Info.plist */,
@@ -112,6 +125,7 @@
 			children = (
 				376E40481D8B904900B47266 /* Project_EPNTests.swift */,
 				376E404A1D8B904900B47266 /* Info.plist */,
+				376E40651D960B1D00B47266 /* FenceManagerTests.swift */,
 			);
 			path = Project_EPNTests;
 			sourceTree = "<group>";
@@ -193,6 +207,7 @@
 				TargetAttributes = {
 					376E402F1D8B904900B47266 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4VG28J647N;
 						ProvisioningStyle = Automatic;
 					};
 					376E40431D8B904900B47266 = {
@@ -259,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376E406A1D9A130600B47266 /* AddViewController.swift in Sources */,
 				376E40361D8B904900B47266 /* ViewController.swift in Sources */,
+				376E40641D90D03900B47266 /* FenceManager.swift in Sources */,
 				376E40341D8B904900B47266 /* AppDelegate.swift in Sources */,
+				376E40621D90CA0900B47266 /* Fence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376E40671D960D5B00B47266 /* FenceManager.swift in Sources */,
 				376E40491D8B904900B47266 /* Project_EPNTests.swift in Sources */,
+				376E40661D960B1D00B47266 /* FenceManagerTests.swift in Sources */,
+				376E40681D960DA300B47266 /* Fence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4VG28J647N;
 				INFOPLIST_FILE = Project_EPN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shamothsoft.Project-EPN";
@@ -424,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4VG28J647N;
 				INFOPLIST_FILE = Project_EPN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shamothsoft.Project-EPN";
@@ -505,6 +528,7 @@
 				376E405A1D8B904900B47266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		376E405B1D8B904900B47266 /* Build configuration list for PBXNativeTarget "Project_EPNTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +537,7 @@
 				376E405D1D8B904900B47266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		376E405E1D8B904900B47266 /* Build configuration list for PBXNativeTarget "Project_EPNUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +546,7 @@
 				376E40601D8B904900B47266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
